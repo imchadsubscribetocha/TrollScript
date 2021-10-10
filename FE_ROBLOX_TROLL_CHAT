@@ -1,0 +1,4 @@
+player =  "Roblox"
+fakemsg = "Farts cutely* I HATE MY FRIENDS!!!"
+message = "                                                                                                                                                   ["..tostring(player).."]: "..tostring(fakemsg)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
